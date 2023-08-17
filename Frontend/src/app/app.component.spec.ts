@@ -27,3 +27,7 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('Todo app is running!');
   });
 });
+function beforeEach(arg0: () => any) {
+  throw new Error('Function not implemented.');
+}
+

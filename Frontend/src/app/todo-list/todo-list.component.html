@@ -1,0 +1,42 @@
+<div class="container">
+    <h1>My To-Do list</h1>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="row">
+            <input type="text" formControlName="task" placeholder="Enter your task" id="task"/>
+            <button type="submit" id="submitBtn" class="btn" [disabled]="form.invalid">
+                Add
+            </button>
+        </div>
+        <small *ngIf= "form.controls['task'].dirty && form.hasError('required', 'task')"
+          class="text">*Task is required</small>
+    </form>
+    <br /><br />
+    <!-- table -->
+    <hr>
+    <table class="table" *ngIf="todos.length > 0" >
+        <!-- header -->
+        <thead>
+            <!-- row of cells in a table -->
+            <tr>
+                <th scope="col">Task</th>
+                <th scope="col">Status</th>
+                <th>Check</th>
+                <th scope="col">Delete</th>
+            </tr>
+
+        </thead>
+        <!-- table body -->
+        <tbody>
+            <tr *ngFor="let todo of todos">
+                <td>{{todo.taskName}}</td>
+                <td>{{todo.isCompleted? "Done":"Pending"}}</td>
+                <td>
+                    <input type="checkbox" id="myCheckbox" (change)="Oncheck(todo)">
+                </td>
+                <td>
+                    <button text="Delete" class="btn_delete" id="deleteBtn" (click)="onDelete(todo.id)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
