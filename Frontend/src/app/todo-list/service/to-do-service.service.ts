@@ -8,27 +8,22 @@ import { Observable } from 'rxjs';
 export class ToDoServiceService {
   constructor(private http:HttpClient) {}
 
-  //Post request
   save(data: any){
-
-  return this.http.post("http://localhost:8081/todos/save", data)
+  return this.http.post(`http://localhost:8082/todos/save`, data)
   }
-  //Get request
-  get(): Observable<any> {
-    return this.http.get<any>("http://localhost:8081/todos/get/{id}");
+  get(id:number): Observable<any> {
+    return this.http.get<any>(`http://localhost:8082/todos/get/${id}`);
   }
- // GetAll request
   getAll(): Observable<any[]>{
-    return this.http.get<any[]>("http://localhost:8081/todos/getAll");
-    }
-    
+    return this.http.get<any[]>(`http://localhost:8082/todos/getAll`);
+    } 
   delete(id:number): Observable<void> {
-    return this.http.delete<void>("http://localhost:8081/todos/delete/{id}")
+    return this.http.delete<void>(`http://localhost:8082/todos/delete/${id}`)
   }
-  deleteAll(): Observable<void[]>{
-    return this.http.delete<void[]>("http://localhost:8081/todos/deleteAll");
+  deleteAll(){
+    return this.http.delete('http://localhost:8082/todos/deleteAll');
   }
   update(id:number,data:any){
-    return this.http.put("http://localhost:8081/todos/update/",id,data);
+    return this.http.put(`http://localhost:8082/todos/update/${id}`,data);
   }
 }

@@ -1,10 +1,14 @@
 <div class="container">
     <h1>My To-Do list</h1>
+    <div class="digitalClock">
+        <a>{{ currentTime | date: 'hh:mm:ss a' }}</a>
+    </div>
+    <br/>
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
         <div class="row">
             <input type="text" formControlName="task" placeholder="Enter your task" id="task"/>
             <button type="submit" id="submitBtn" class="btn" [disabled]="form.invalid">
-                Add
+                Save To
             </button>
         </div>
         <small *ngIf= "form.controls['task'].dirty && form.hasError('required', 'task')"
@@ -13,7 +17,7 @@
     <br /><br />
     <!-- table -->
     <hr>
-    <table class="table" *ngIf="todos.length > 0" >
+    <table class="table" *ngIf="todos.length > 0">
         <!-- header -->
         <thead>
             <!-- row of cells in a table -->
@@ -29,14 +33,16 @@
         <tbody>
             <tr *ngFor="let todo of todos">
                 <td>{{todo.taskName}}</td>
-                <td>{{todo.isCompleted? "Done":"Pending"}}</td>
+                <td>{{todo.completed? "Done":"Pending"}} </td>
                 <td>
-                    <input type="checkbox" id="myCheckbox" (change)="Oncheck(todo)">
+                    <input type="checkbox" id="myCheckbox" [checked]="todo.completed" (click)="Oncheck(todo)">
                 </td>
                 <td>
                     <button text="Delete" class="btn_delete" id="deleteBtn" (click)="onDelete(todo.id)">Delete</button>
-                </td>
+                </td>                
             </tr>
+            <br/>
+            <button type="submit" id="deleteAllBtn"class="deleteButton" (click)="OnDeleteAll()">Delete All</button>
         </tbody>
     </table>
 </div>

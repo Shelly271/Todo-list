@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ToDoServiceService } from './service/to-do-service.service';
 
-
-
 @Component({
   selector: 'app-todo-list',
   templateUrl: './todo-list.component.html',
@@ -13,6 +11,7 @@ export class TodoListComponent implements OnInit {
   form: FormGroup = new FormGroup({});
   todos: any = [];
   taskName: string = ''
+  currentTime!: Date;
 
   constructor(private formBuilder: FormBuilder,
     private service: ToDoServiceService) { }
@@ -22,26 +21,17 @@ export class TodoListComponent implements OnInit {
       task: ['', Validators.required]
     });
     this.getTodos();
-    // this.getTodosById();
-    // this.ngOnChanges(1);
-    // this.onSubmit();
-    // this.onDelete(1);
-
+    setInterval(() => {
+      this.currentTime = new Date();
+    },1000);
   }
-
-  // ngOnChanges(id: number){
-  //   this.service.update(id, this.form.value.task).subscribe(_ => {
-  //     alert('Task updated successfully');
-  //   });
-  // }
 
   onSubmit() {
     const data = {
       taskName: this.form.value.task,
-      completed: false
+      isCompleted: true
     }
     this.service.save(data).subscribe(_ => {
-      alert('Task saved successfully');
       this.getTodos()
     });
     this.form.reset();
@@ -51,45 +41,36 @@ export class TodoListComponent implements OnInit {
     this.service.getAll().subscribe((todos: any) => {
       this.todos = todos
       console.log(todos)
-      // console.log('Done getting todos'),
-      // alert('Done getting todos')
     });
   }
 
-  getTodosById() {
-    this.service.get().subscribe((result: any) => {
-      const resul = result
-      console.log(resul),
-        console.log('Done getting Todos by id')
-    })
-  }
-
+  // getTodosById(id: number) {
+  //   this.service.get(id).subscribe((result: any) => {
+  //     const resul = result
+  //     console.log(resul),
+  //       console.log('Done getting Todos by id')
+  //   })
+  // }
 
   onDelete(index: number) {
     this.service.delete(index).subscribe(_ => {
-      alert('Deleted successfully');
-    });
-    console.log(index);
-    this.todos.splice(index, 1);
-    // alert('Successfully deleted');
+      alert("Successfully deleted")
+      this.getTodos()
+    })
   }
 
-  deleteAll() {
-    this.service.deleteAll().subscribe((results: any) => {
-      results.forEach((result: any) => {
-        this.todos.push(result);
-      })
-    });
+  OnDeleteAll() {
+    this.service.deleteAll().subscribe(_ => {
+      alert("Deleted all")
+      this.getTodos()
+    })
   }
 
   Oncheck(todo: any) {
-   
-    this.service.update(todo.id,todo).subscribe(_ => {
+    console.log(todo)
+    this.service.update(todo.id, todo).subscribe(_ => {
       alert("Updated succesfully")
       this.getTodos()
     })
-
   }
-
-
 }

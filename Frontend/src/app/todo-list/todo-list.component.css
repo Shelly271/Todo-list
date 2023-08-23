@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     font-size: 3rem;
+    text-decoration:underline;
 }
 .container{
     justify-content: center;
@@ -51,5 +52,17 @@ h1{
     border-bottom: 1px solid #070707;
   }
   .text{
-    color: rgb(226, 20, 20);
+    color: rgb(236, 23, 23);
   }
+.deleteButton{
+    margin-left: 230%;
+    background-color: rgb(236, 23, 23);
+    border: none!important;
+    border-radius: 20px;
+    width: 90px ;
+    height: 30px;
+    margin-left: 230%;
+}
+#deleteAllBtn:hover{
+    background-color:burlywood;
+}

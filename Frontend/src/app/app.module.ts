@@ -17,9 +17,11 @@ import { ToDoServiceService } from './todo-list/service/to-do-service.service';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule
   ],
-  providers: [ToDoServiceService],
+  providers: [
+    ToDoServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
