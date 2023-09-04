@@ -93,101 +93,521 @@
                         "isCorrect": false
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "img": "https://debrabell.com/wp-content/uploads/2021/06/Biology-1200x628-1.png",
-        "name": "Biology",
-        "questions": [
+            },
             {
-                "id": 1,
-                "text": "The Kreb Cycles occurs in the",
+                "id": 4,
+                "text": "Which file is commonly used to configure application-specific properties in a Spring Boot project?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Mitochondria",
-                        "isCorrect": true
+                        "text": "main.java",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Nucleus",
+                        "text": "pom.xml",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Rough ER",
+                        "text": "index.html",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Cystol",
+                        "text": "application.yml",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": ": In IntelliJ IDEA, what is the purpose of the Run Configuration for a Spring Boot application?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "To configure the version control settings",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "To specify which Java version to use",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "To define how your Spring Boot application should be executed",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "To organize Spring components into packages",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "In AngularJS, what is the purpose of the controller?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "To define routing rules for the application",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "To handle user authentication and authorization",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "To manage the application's data and behavior",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "To define the structure of the HTML template",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Which directive is used to include external HTML templates in an AngularJS application?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ng-include",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "ng-template",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "ng-external",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "ng-import",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "What does two-way data binding mean in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": " Data can only flow from the controller to the view.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Data can only flow from the view to the controller.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Changes in the model are automatically reflected in the view, and vice versa.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Data can only be bound to a single variable.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "What is the purpose of the ng-app directive in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "It defines the application's routing configuration.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "It specifies the application's name.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "It bootstraps the AngularJS application to the HTML document.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": " It includes external JavaScript libraries.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "Which version of JavaScript is primarily used in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ES5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "ES6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "ES7",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "TypeScript",
+                        "isCorrect": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "https://i.ytimg.com/vi/vsUx-kod2O4/maxresdefault.jpg",
+        "name": "Intellij IDEA",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Which of the following is NOT a key feature of Spring Boot?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Automatic configuration",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Dependency injection",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Embedded web server support",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": " Production-ready metrics",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "How many oxygen molecules can hemoglobin hold",
+                "text": "In Spring Boot, which annotation is used to define a class as a Spring bean that should be managed by the Spring container?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "1",
-                        "isCorrect": false
+                        "text": "@Component",
+                        "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "2",
+                        "text": "@SpringBean",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "3",
+                        "text": "@Autowired",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "4",
-                        "isCorrect": true
+                        "text": " @Service",
+                        "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "The cones see ___ while the rods see ___",
+                "text": "What is the primary purpose of the Spring Initializr tool integrated into IntelliJ IDEA",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "black and white; color",
+                        "text": "To debug Spring Boot applications",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "color; black and white",
+                        "text": "To generate a new Spring Boot project with specific dependencies and settings",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "3D objects; 2D shapes",
+                        "text": "To create unit tests for Spring Boot components",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "2D shapes; 3D objects",
+                        "text": "To deploy Spring Boot applications to the cloud",
                         "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Which file is commonly used to configure application-specific properties in a Spring Boot project?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "main.java",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "pom.xml",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "index.html",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "application.yml",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": ": In IntelliJ IDEA, what is the purpose of the Run Configuration for a Spring Boot application?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "To configure the version control settings",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "To specify which Java version to use",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "To define how your Spring Boot application should be executed",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "To organize Spring components into packages",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "In AngularJS, what is the purpose of the controller?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "To define routing rules for the application",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "To handle user authentication and authorization",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "To manage the application's data and behavior",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "To define the structure of the HTML template",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Which directive is used to include external HTML templates in an AngularJS application?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ng-include",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "ng-template",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "ng-external",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "ng-import",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "What does two-way data binding mean in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": " Data can only flow from the controller to the view.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Data can only flow from the view to the controller.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Changes in the model are automatically reflected in the view, and vice versa.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Data can only be bound to a single variable.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "What is the purpose of the ng-app directive in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "It defines the application's routing configuration.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "It specifies the application's name.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "It bootstraps the AngularJS application to the HTML document.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": " It includes external JavaScript libraries.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "Which version of JavaScript is primarily used in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ES5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "ES6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "ES7",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "TypeScript",
+                        "isCorrect": true
                     }
                 ]
             }
@@ -195,95 +615,305 @@
     },
     {
         "id": 3,
-        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-        "name": "Chemistry",
+        "img": "https://ubiqum.com/assets/uploads/2021/12/learn-java-with-ubiqum-logo.png",
+        "name": "Java",
         "questions": [
             {
                 "id": 1,
-                "text": "What is the composition of table salt",
+                "text": "What is Java primarily known for?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "NaCl",
-                        "isCorrect": true
+                        "text": "Coffee production",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "K2",
+                        "text": " Island nation in Southeast Asia",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "NaCl2C4H7",
-                        "isCorrect": false
+                        "text": " Programming language",
+                        "isCorrect": true
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "CH4",
+                        "text": "Musical genre",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "What is Potassium's chemical symbol",
+                "text": "Which of the following is NOT a valid Java data type?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "P",
+                        "text": "int",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Pt",
-                        "isCorrect": false
+                        "text": "string",
+                        "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Pts",
+                        "text": "double",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "K",
-                        "isCorrect": true
+                        "text": "boolean",
+                        "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "Which is not organinc",
+                "text": "What is the main advantage of using Java's Write Once, Run Anywhere principle?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "CH4",
-                        "isCorrect": false
+                        "text": "t allows you to write code once and run it on any operating system.",
+                        "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "NaCl",
-                        "isCorrect": true
+                        "text": " It guarantees that your code will never have bugs.",
+                        "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "C2H6",
+                        "text": "It makes your code execute faster.",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "C3H8",
+                        "text": "It allows you to write code without errors.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Which keyword is used to declare a class in Java?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "class",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "object",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "type",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "define",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What does the static keyword indicate when applied to a Java method?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "The method cannot be called.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "The method belongs to the class rather than an instance of the class.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "The method can only be called by other static methods.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "The method cannot have parameters.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "Which Java keyword is used to create an instance of a class?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "create",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "new",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "instance",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "make",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "What is the purpose of the public static void main(String[] args) method in a Java class?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": " It is the main constructor of the class.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "It is the entry point of the Java application.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "It is used to define public variables.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "It is used to declare static methods.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "In Java, what is an exception?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "A common programming pattern",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "A standard data type",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "An event that disrupts the normal flow of a program",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "A reserved keyword",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "Which collection class in Java allows you to store elements in a key-value pair format?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ArrayList",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "HashSet",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "HashMap",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "LinkedList",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "What is the Java Virtual Machine (JVM)?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "A physical machine used to run Java programs",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "A compiler for Java code",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "A runtime environment that executes Java bytecode",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "A code editor for writing Java programs",
                         "isCorrect": false
                     }
                 ]
@@ -292,96 +922,306 @@
     },
     {
         "id": 4,
-        "img": "https://www.shutterstock.com/shutterstock/photos/2157675065/display_1500/stock-photo-physics-equations-floating-in-the-background-hands-writing-in-notebooks-on-wooden-tables-2157675065.jpg",
-        "name": "Physics",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAd7-kIaZLrtSJpDXxJQFg6T9oRtCLKfuo3w&usqp=CAU",
+        "name": "AngularJS",
         "questions": [
             {
                 "id": 1,
-                "text": "  What is the SI unit of force?",
+                "text": "What is AngularJS primarily used for?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Newton (N)",
-                        "isCorrect": true
+                        "text": "Server-side scripting",
+                        "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Watt (W)",
-                        "isCorrect": false
+                        "text": "Front-end web development",
+                        "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": " Joule (J)",
+                        "text": "Mobile app development",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": " Volt (V)",
+                        "text": "Database management",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "  Which of the following is not a fundamental particle of an atom?",
+                "text": "Which directive is used to bind a model to an HTML input element in AngularJS?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": " Electron",
-                        "isCorrect": false
+                        "text": "ng-model",
+                        "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Proton",
+                        "text": "ng-bind",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "  Neutron",
+                        "text": "ng-value",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "  Quark",
-                        "isCorrect": true
+                        "text": "ng-attribute",
+                        "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "Which color of light has the shortest wavelength in the visible spectrum?",
+                "text": "In AngularJS, what does ng-repeat do?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Red",
+                        "text": "Repeats a string multiple times",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Green",
+                        "text": "Iterates over an array or object and repeats HTML elements",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Repeats a function call",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Creates a loop within a controller",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "text": "Which of the following is NOT a built-in filter in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "date",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "currency",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": " Blue",
+                        "text": "uppercase",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": " sort",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "text": "What is dependency injection in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "A method to inject JavaScript code into HTML",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "A way to inject data from a database into a controller",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "A design pattern for passing dependencies to components",
                         "isCorrect": true
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "  Yellow",
+                        "text": "A technique to inject CSS styles into a web page",
                         "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "text": "In AngularJS, what is the purpose of the controller?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "To define routing rules for the application",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "To handle user authentication and authorization",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "To manage the application's data and behavior",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "To define the structure of the HTML template",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "text": "Which directive is used to include external HTML templates in an AngularJS application?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ng-include",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "ng-template",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "ng-external",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "ng-import",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "text": "What does two-way data binding mean in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": " Data can only flow from the controller to the view.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Data can only flow from the view to the controller.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Changes in the model are automatically reflected in the view, and vice versa.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Data can only be bound to a single variable.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "text": "What is the purpose of the ng-app directive in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "It defines the application's routing configuration.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "It specifies the application's name.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "It bootstraps the AngularJS application to the HTML document.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": " It includes external JavaScript libraries.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "text": "Which version of JavaScript is primarily used in AngularJS?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "ES5",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "ES6",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "ES7",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "TypeScript",
+                        "isCorrect": true
                     }
                 ]
             }
